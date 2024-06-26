@@ -529,10 +529,10 @@ gsettings set org.gnome.SessionManager logout-prompt false
 * e - Supprimer les flatpaks KDE :
   
   ```
-  flatpak remove org.kde.KStyle.Adwaita         org.kde.PlatformTheme.QGnomePlatform     
+  flatpak remove org.kde.KStyle.Adwaita org.kde.PlatformTheme.QGnomePlatform     
   org.kde.WaylandDecoration.QAdwaitaDecorations QGnomePlatform-decoration  
   org.kde.WaylandDecoration.QGnomePlatform-decoration   org.kde.Platform 
-      ```
+  ```
 
   
 * f - Supprimer et masquer les services inutiles :
@@ -585,7 +585,7 @@ gsettings set org.gnome.SessionManager logout-prompt false
   ```
   [Coredump]
   Storage=none
-  Pro    cessSizeMax=0
+  ProcessSizeMax=0
   ```
      et supprimer le service dans le noyau ```kernel```  avec la commande :
 
@@ -634,10 +634,10 @@ gsettings set org.gnome.SessionManager logout-prompt false
 
 * l - EXPERIMENTAL : créer un initramfs plus petit et plus rapide en désactivant des modules inutiles : manipulation à faire à chaque màj du kernel : d'abord désactiver vconsole :
 
-      ```
-      cp /usr/bin/true /usr/lib/systemd/systemd-vconsole-setup
+  ```
+  cp /usr/bin/true /usr/lib/systemd/systemd-vconsole-setup
 
-      ```
+  ```
      puis créer un fichier de configuration `dracut` (ou dracut --regenerate-all) :
 
   ```
