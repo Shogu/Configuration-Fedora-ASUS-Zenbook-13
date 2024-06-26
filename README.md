@@ -7,21 +7,21 @@ Tips &amp; tricks de configuration de Fedora 39
   
 Sommaire :
 
-1. [Installation](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#1---installation)
+1. [Installation](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13/blob/main/README.md#1---installation)
 
-2. [Réglages de base](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#2---réglages-de-base)
+2. [Réglages de base](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13/blob/main/README.md#2---réglages-de-base)
 
-3. [Remplacement et installation de logiciels et codecs](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#3---remplacement-et-installation-de-logiciels-et-codecs)
+3. [Remplacement et installation de logiciels et codecs](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13/blob/main/README.md#3---remplacement-et-installation-de-logiciels-et-codecs)
 
-4. [Réglages des navigateurs Opera & Firefox](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#4---réglages-des-navigateurs-opera--firefox)
+4. [Réglages des navigateurs Opera & Firefox](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13/blob/main/README.md#4---réglages-des-navigateurs-opera--firefox)
 
-5. [Réglages de l'UI Gnome Shell](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#5---réglages-de-lui-gnome-shell)
+5. [Réglages de l'UI Gnome Shell](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13/blob/main/README.md#5---réglages-de-lui-gnome-shell)
    
-6. [Allégement du système](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#6---allégement-du-système)
+6. [Allégement du système](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13/blob/main/README.md#6---allégement-du-système)
 
 7. [Optimisation du système](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#7---optimisation-du-système)
 
-8. [Maintenance de la distribution](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#8---maintenance-de-la-distribution)
+8. [Maintenance de la distribution](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13/blob/main/README.md#7---optimisation-du-système)
 
    
    
