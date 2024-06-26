@@ -140,10 +140,8 @@ Sommaire :
       Fedora OU Flathub car les runtimes ne sont pas partagés entre les 2.
 
   ```
-  flatpak install flathub com.mattjakeman.ExtensionManager org.gnome.firmware  
-  io.github.giantpinkrobots.flatsweep net.nokyan.Resources io.gitlab.adhami3310.Impression 
-  io.github.celluloid_player.Celluloid com.github.fabiocolacio.marker 
-  org.jdownloader.JDownloader  org.onlyoffice.desktopeditors de.haeckerfelix.Fragments -y
+  flatpak install flathub com.mattjakeman.ExtensionManager io.github.giantpinkrobots.flatsweep net.nokyan.Resources io.gitlab.adhami3310.Impression 
+  io.github.celluloid_player.Celluloid com.github.fabiocolacio.marker org.jdownloader.JDownloader  org.onlyoffice.desktopeditors de.haeckerfelix.Fragments -y
   ```
 
     
