@@ -413,8 +413,8 @@ gsettings set org.gnome.SessionManager logout-prompt false
 
 
                ----- Rajouter des toggles au menu de Gnome-Shell -----
-[Screenshot 1](https://i.postimg.cc/640Q59k5/Capture-d-cran-du-2024-06-24-19-25-39.png)
-[Screenshot 2](https://i.postimg.cc/ThXqwCzZ/Capture-d-cran-du-2024-06-24-19-26-15.png)
+[Screenshot 1](https://i.postimg.cc/640Q59k5)
+[Screenshot 2](https://i.postimg.cc)
 
 
 
