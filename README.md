@@ -411,9 +411,14 @@ gsettings set org.gnome.SessionManager logout-prompt false
 
 
 
------ Rajouter des toggles au menu de Gnome-Shell :
 
-<a href="https://ibb.co/1vwLvH1"><img src="https://i.ibb.co/1vwLvH1/Capture-d-cran-du-2024-06-24-19-25-39.png" alt="Capture-d-cran-du-2024-06-24-19-25-39" border="0"></a> <a href="https://ibb.co/Bq2YhFR"><img src="https://i.ibb.co/Bq2YhFR/Capture-d-cran-du-2024-06-24-19-26-15.png" alt="Capture-d-cran-du-2024-06-24-19-26-15" border="0"></a>
+               ----- Rajouter des toggles au menu de Gnome-Shell -----
+[Screenshot 1](https://i.postimg.cc/640Q59k5/Capture-d-cran-du-2024-06-24-19-25-39.png)
+[Screenshot 2](https://i.postimg.cc/ThXqwCzZ/Capture-d-cran-du-2024-06-24-19-26-15.png)
+
+
+
+
 
   
 * n - Télécharger le script `.activer_tiling.sh` pour activer/désactiver l'extension de `Tiling`, puis rendre le 
