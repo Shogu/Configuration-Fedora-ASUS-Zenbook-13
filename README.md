@@ -638,11 +638,12 @@ gsettings set org.gnome.SessionManager logout-prompt false
   cp /usr/bin/true /usr/lib/systemd/systemd-vconsole-setup
 
   ```
-     puis créer un fichier de configuration `dracut` (ou dracut --regenerate-all) :
+     puis créer un fichier de configuration `dracut` (ou dracut --regenerate-all), ou télécharger directement le fichier dracut.conf.
 
   ```
   sudo gnome-text-editor /etc/dracut.conf.d/dracut.conf
   ```
+  
      et copier-coller ces options de configuration :
 
   ```
@@ -651,24 +652,17 @@ gsettings set org.gnome.SessionManager logout-prompt false
   omit_dracutmodules+=" multipath nss-softokn memstrack usrmount mdraid dmraid debug selinux fcoe fcoe-uefi terminfo 
   watchdog crypt-gpg crypt-loop cdrom pollcdrom pcsc ecryptfs rescue watchdog-module network cifs nfs nbd brltty 
   busybox rdma i18n isci wacom "
-
   omit_drivers+=" nvidia amd nouveau "
-
   filesystems+=" ext4 btrfs fat "
-
   # Ne pas exécuter fsck
   nofscks="yes"
-
   # Niveau de journalisation
   stdlog="0"
-
   # Compression de l'initramfs
   compress="zstd"
   compress_options="-4"
-  
   # Mode silencieux
   quiet="yes"
-
   # Autres options
   force="yes"
   hostonly="yes"
