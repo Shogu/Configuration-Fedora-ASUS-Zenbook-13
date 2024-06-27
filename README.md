@@ -524,7 +524,7 @@ gsettings set org.gnome.SessionManager logout-prompt false
   ```
   sudo dnf autoremove speech-dispatcher mdadm lvm2 mdadm lvm2 sssd firewalld ibus-libzhuyin 
   ibus-libpinyin ibus-typing-booster ibus-m17n ibus-hangul ibus-anthy yelp abrt brltty 
-  podman openvpn gnome-weather rygel totem virtualbox* -y
+  podman openvpn gnome-weather rygel totem virtualbox* avahi-tools -y
   ```
 
   
@@ -543,12 +543,13 @@ gsettings set org.gnome.SessionManager logout-prompt false
   sudo systemctl mask NetworkManager-wait-online.service auditd.service ModemManager.service avahi-daemon.service 
   plymouth-quit-wait.service switcheroo-control.service sys-kernel-tracing.mount sys-kernel-debug.mount httpd.service 
   mdmonitor.service mdmonitor.service raid-check.timer sssd-kcm.service pcscd raid-check.timer fwupd
+  avahi-daemon.socket
   ```
   
-     et désactiver le Bluetooth pour l' activer à la volée (voir script dans la rubrique UI Gnome) :
+     et désactiver le Bluetooth pour l' activer à la volée (voir script dans la rubrique UI Gnome) + cups :
   
   ```
-  sudo systemctl disable bluetooth.service 
+  sudo systemctl disable bluetooth.service cups
   ```
   
 
