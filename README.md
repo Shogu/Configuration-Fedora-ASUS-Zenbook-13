@@ -140,8 +140,9 @@ Sommaire :
       Fedora OU Flathub car les runtimes ne sont pas partagés entre les 2.
 
   ```
-  flatpak install flathub com.mattjakeman.ExtensionManager io.github.giantpinkrobots.flatsweep net.nokyan.Resources io.gitlab.adhami3310.Impression 
-  io.github.celluloid_player.Celluloid com.github.fabiocolacio.marker org.jdownloader.JDownloader  org.onlyoffice.desktopeditors de.haeckerfelix.Fragments -y
+  flatpak install flathub com.mattjakeman.ExtensionManager io.github.giantpinkrobots.flatsweep net.nokyan.Resources 
+  io.github.celluloid_player.Celluloid com.github.fabiocolacio.marker org.jdownloader.JDownloader  
+  org.onlyoffice.desktopeditors de.haeckerfelix.Fragments -y
   ```
 
     
@@ -394,8 +395,9 @@ gsettings set org.gnome.SessionManager logout-prompt false
       changer les polices au profit de `Noto Sans 12` ou `Monospace 11`
   
 
-* k - Modifier le thème de `Jdownloader` avec ce dépôt [Github](https://calendar.google.com/calendar/u/0/r?pli=1), 
-      ou alors avec les icons `flat` et le thème `Black Star` puis supprimer les bannières, menus & colonnes inutiles.
+* k - Modifier le thème de `Jdownloader` avec ce dépôt [Github](https://calendar.google.com/calendar/u/0/r?pli=1) : 
+      (attention, les polices et sont trop grosses et rendent la lecture trop difficile, ou alors avec les icons 
+      `flat` et le thème `Black Star` puis supprimer les bannières, menus & colonnes inutiles.
 
 
 * l - Télécharger le script de `transfert des vidéos` intitulé `.transfert_videos` pour déplacer automatiquement les 
