@@ -149,7 +149,7 @@ Sommaire :
 * f - Installer les logiciels suivants avec dnf :
 
   ```
-  sudo dnf install donf-editor bleachbit ufw gnome-tweaks nicotine powertop loupe zstd 
+  sudo dnf install htop donf-editor bleachbit ufw gnome-tweaks nicotine powertop loupe zstd 
   gnome-network-displays ffmpegthumbnailer.x86_64 -y
   ```
 
