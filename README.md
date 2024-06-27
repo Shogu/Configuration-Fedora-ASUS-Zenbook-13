@@ -557,6 +557,12 @@ gsettings set org.gnome.SessionManager logout-prompt false
   ```
   systemd-analyze blame | grep -v '\.device$'
   ```
+
+     et :
+
+```
+systemctl list-unit-files --type=service --state=enabled
+```
   
 * g - Supprimer l'autoboot d'Orca si besoin :
   
