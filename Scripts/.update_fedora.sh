@@ -38,6 +38,10 @@ echo "Stopping fwupd service..."
 sudo systemctl stop fwupd
 sudo systemctl mask fwupd
 
+# Compacter les bases de données des navigateurs avec profile-cleaner
+profile-cleaner f
+profile-cleaner o
+
 
 # Cleaning
 echo "cleaning..."
