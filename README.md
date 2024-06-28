@@ -141,8 +141,7 @@ Sommaire :
 
   ```
   flatpak install flathub com.mattjakeman.ExtensionManager io.github.giantpinkrobots.flatsweep net.nokyan.Resources 
-  io.github.celluloid_player.Celluloid com.github.fabiocolacio.marker org.jdownloader.JDownloader  
-  org.onlyoffice.desktopeditors de.haeckerfelix.Fragments -y
+  com.github.fabiocolacio.marker org.jdownloader.JDownloader  org.onlyoffice.desktopeditors de.haeckerfelix.Fragments -y
   ```
 
     
@@ -150,7 +149,7 @@ Sommaire :
 
   ```
   sudo dnf install htop donf-editor bleachbit ufw gnome-tweaks nicotine powertop loupe zstd 
-  gnome-network-displays ffmpegthumbnailer.x86_64 file-roller profile-cleaner -y
+  gnome-network-displays ffmpegthumbnailer.x86_64 file-roller profile-cleaner celluloid -y
   ```
 
   
