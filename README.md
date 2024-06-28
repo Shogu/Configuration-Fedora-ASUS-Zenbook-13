@@ -199,7 +199,7 @@ Sommaire :
   
    4 - [Raindrop](https://raindrop.io/r/extension/chrome)
   
-   5 - [uBlock Origin](https://addons.opera.com/fr/extensions/details/ublock/) Penser à désactiver le bloqueur de pub natif d'Opera qui est bien moins performant, puis régler l'extension avec les filtres. Envisager le mode [MEDIUM](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) même s'il complique souvent la navigation : chercher un ensemble de règles comme [celui-ci](https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules.txt) et le tester.
+   5 - [uBlock Origin](https://addons.opera.com/fr/extensions/details/ublock/) Penser à désactiver le bloqueur de pub natif d'Opera qui est bien moins performant, puis régler l'extension avec les filtres. Envisager le mode [MEDIUM](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode) même s'il complique souvent la navigation : chercher un ensemble de règles comme [celui-ci](https://raw.githubusercontent.com/Yuki2718/adblock2/main/medium_mode/dynamic-rules.txt) et les copier dans `Mon filtrage dynamique`, `règles temporaires` : enregistrer puis `appliquer` pour en faire des règles permanentes.
   
    6 - [Cleaner Pro](https://addons.opera.com/fr/extensions/details/cleaner-pro-clear-cache-history/)
   
