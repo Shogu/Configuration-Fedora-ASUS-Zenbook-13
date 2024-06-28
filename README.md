@@ -722,7 +722,7 @@ systemctl list-unit-files --type=service --state=enabled
      Puis saisir :
   
   ```
-  mitigations=off selinux=0 cgroup_disable=rdma 
+  mitigations=off selinux=0 cgroup_disable=rdma nmi_watchdog=0
   ```
      puis reinstaller le noyau avec la commande suivante :
   
