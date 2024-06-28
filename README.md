@@ -812,6 +812,12 @@ systemctl list-unit-files --type=service --state=enabled
   ```
      puis editer `NautoVTS=3`
 
+* k - Vérifier que le système utilise bien les DNS du routeur Xiaomi (192.168.31.1) :
+
+  ```
+  nmcli dev show |grep DNS
+  ```
+
 
 
 
