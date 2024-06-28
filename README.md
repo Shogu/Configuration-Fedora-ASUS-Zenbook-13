@@ -150,7 +150,7 @@ Sommaire :
 
   ```
   sudo dnf install htop donf-editor bleachbit ufw gnome-tweaks nicotine powertop loupe zstd 
-  gnome-network-displays ffmpegthumbnailer.x86_64 file-roller -y
+  gnome-network-displays ffmpegthumbnailer.x86_64 file-roller profile-cleaner -y
   ```
 
   
