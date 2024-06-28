@@ -199,7 +199,7 @@ Sommaire :
   
    4 - [Raindrop](https://raindrop.io/r/extension/chrome)
   
-   5 - [uBlock Origin](https://addons.opera.com/fr/extensions/details/ublock/) Penser à désactiver le bloqueur de pub natif d'Opera qui est bien moins performant.
+   5 - [uBlock Origin](https://addons.opera.com/fr/extensions/details/ublock/) Penser à désactiver le bloqueur de pub natif d'Opera qui est bien moins performant, puis régler l'extension avec les filtres et le mode [MEDIUM](https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode)
   
    6 - [Cleaner Pro](https://addons.opera.com/fr/extensions/details/cleaner-pro-clear-cache-history/)
   
