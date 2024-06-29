@@ -788,6 +788,15 @@ systemctl list-unit-files --type=service --state=enabled
   ```sudo ufw allow in 51413/tcp```
   ```sudo ufw allow in 51413/udp```
 
+     pour le serveur FTP du SSD de la TV Android :
+  ```
+  sudo ufw allow 2121/tcp
+  sudo ufw allow 1024:1048/tcp
+  sudo ufw enable
+  sudo ufw status
+  ```
+
+
 * h - Modifier le `swappiness` :
   
   ```
