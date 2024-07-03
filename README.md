@@ -274,6 +274,8 @@ ATTENTION cela désactive ChatGPT dans la sidebar!
   25 - Update au lancement : `chrome://flags/#sync-poll-immediately-on-every-startup` à désactiver (vérifier si la 
        synchronisation se fait quand même)
 
+  26 - Tab Cycler (à désactiver) : `opera://flags/#component-based-tab-cycler`
+
 
 * j - Créer dans la barre latérale d'Opera les sites internet suivants APRES s'être connecté à 
       Google :
