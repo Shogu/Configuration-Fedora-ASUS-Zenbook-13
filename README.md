@@ -350,7 +350,7 @@ browser.sessionstore.interval
   
     10 - [Frequency Boost Switch](https://extensions.gnome.org/extension/4792/frequency-boost-switch/)
   
-    11 - [Hide Activities Button](https://extensions.gnome.org/extension/744/hide-activities-button/)
+    11 - [Quick Settings Extension](https://extensions.gnome.org/extension/5446/quick-settings-tweaker/)
   
     12 - [Hot Edge](https://extensions.gnome.org/extension/4222/hot-edge/)
   
@@ -365,7 +365,6 @@ browser.sessionstore.interval
     17 - [Privacy Quick Settings](https://extensions.gnome.org/extension/4491/privacy-settings-menu/) puis la 
          supprimer une fois les réglages réalisés.
 
-    18 - [Qucik Settings Extension](https://extensions.gnome.org/extension/5446/quick-settings-tweaker/)
 
 * d - Installer [Nautilus-admin](https://download.copr.fedorainfracloud.org/results/tomaszgasior/mushrooms/fedora-38-x86_64/06214967-nautilus-admin/) puis lancer la commande ```nautilus -q``` pour relancer Fichiers
 
