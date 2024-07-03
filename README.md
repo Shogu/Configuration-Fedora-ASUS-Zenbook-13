@@ -365,6 +365,8 @@ browser.sessionstore.interval
     17 - [Privacy Quick Settings](https://extensions.gnome.org/extension/4491/privacy-settings-menu/) puis la 
          supprimer une fois les réglages réalisés.
 
+    18 - [Qucik Settings Extension](https://extensions.gnome.org/extension/5446/quick-settings-tweaker/)
+
 * d - Installer [Nautilus-admin](https://download.copr.fedorainfracloud.org/results/tomaszgasior/mushrooms/fedora-38-x86_64/06214967-nautilus-admin/) puis lancer la commande ```nautilus -q``` pour relancer Fichiers
 
 * e - Raccourcis à éditer dans Gnome : mettre ```x-terminal-emulator``` à la place de la touche Exposant, et la 
