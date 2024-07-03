@@ -179,8 +179,8 @@ Sommaire :
 
 * c - Editer le raccourci Opera :
       -pour ouvrir un onglet fermé avec `ctrl-q`
-      -`ctrl-tab` pour `Sélectionner l'onglet actif précédent`
-      -`ctrl-*` pour `Ouvrir ChatGPT dans la barre latérale`
+      -`ctrl-s` pour `Sélectionner l'onglet actif précédent`
+      -`ctrl-<` pour `Ouvrir ChatGPT dans la barre latérale`
 
 * d - Passer Opera sur `wayland` APRES avoir fait un snap (possible problème de flou) avec le flag `chrome://flags/#ozone-platform-hint` puis activer l'autoclose de xwayland (voir plus bas).
   
