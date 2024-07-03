@@ -390,7 +390,7 @@ gsettings set org.gnome.SessionManager logout-prompt false
     - installer les deux scripts lua suivants pour la musique :
       [Visualizer](https://www.dropbox.com/scl/fi/bbwlvfhtjnu8sgr4yoai9/visualizer.lua?rlkey=gr3bmjnrlexj7onqrxzjqxafl&dl=0)
       [Delete File avec traduction française](https://www.dropbox.com/scl/fi/c2cacmw2a815husriuvc1/delete_file.lua?rlkey=6b9d352xtvybu685ujx5mpv7v&dl=0)
-      - activer `utiliser les commandes flottantes en mode fenêtré`, puis activer l'option `focus` et `toujours afficher les boutons de titre`
+      - activer l'option `focus` et `toujours afficher les boutons de titre`
   
 * j - Améliorer l'autocomplétion du terminal en téléchargeant le fichier`.inputrc` et le palcer dans `~/`, puis 
       changer les polices au profit de `Noto Sans 12` ou `Monospace 11`
