@@ -64,14 +64,13 @@ Sommaire :
 
 * c - Régler Nautilus & créer un marque-page pour `Dropbox` & pour l'accès f`tp` au disque SSD sur la TV Android
 
-* d - Supprimer le mot de passe au démarrage avec le logiciel 
+* d - Supprimer le mot de passe au démarrage avec le logiciel puis penser à reconnecter le compte Google dans Gnome :
 
   ```
-  sudo dnf install seahorse
+  rm -v ~/.local/share/keyrings/*.keyring && reboot
   ```
   
-* e - Installer le plugin dnf `snapper` avant d'utiliser dnf et s'assurer que le plugin 
-      installe bien la dépendance snapper :
+* e - Installer le plugin dnf `snapper` avant d'utiliser dnf et s'assurer que le plugin installe bien la dépendance snapper :
   
   ```
   sudo dnf install  dnf-plugins-core dnf-plugin-snapper
