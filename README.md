@@ -423,42 +423,18 @@ gsettings set org.gnome.SessionManager logout-prompt false
 
 
   
-* n - Télécharger le script `.activer_tiling.sh` pour activer/désactiver l'extension de `Tiling`, puis rendre le 
-      script exécutable et créer  le toggle avec Custom Command Toggle :
+* n - Télécharger le script `.activer_tiling.sh` pour activer/désactiver l'extension de `Tiling`, puis rendre le script exécutable et créer  le toggle avec Custom 
+      Command Toggle :
   ![Toggle Tiling](https://i.ibb.co/CMsJQpK/Capture-d-cran-du-2024-06-19-14-32-27.png)
 
 
-* o - Créer le `Mode Tablette` (à compléter avec les logiciels Wike, Librum, et un raccourci Google Play Livres) : 
-      créer un toggle Gnome-shell qui lance le script `.tablette.sh` qui va activer l'extension  Screen-rotate 
-      (qu'il faut régler en rajoutant l'option Manual) et le clavier virtuel, ou les désactiver s'ils sont en 
-      fonction, et lui attribuer le raccourci `pda-symbolic`.
-      Pour créer le toggle, il faut dupliquer l'extension `custom-command-toggle` : soit via le script 
-      `duplicate_toggle_buttons_extension`, soit à la main avec la méthodo du développeur :
-
-  ```
-  Make a copy of the "custom-command-toggle@storageb.github.com" extension folder located 
-  here: ~/.local/share/gnome-shell/extensions
-       Rename the copied folder to custom-command-toggle2@storageb.github.com
-  In the metadata.json file:
-       change the settings-schema to "org.gnome.shell.extensions.custom-command-toggle2"
-       change the uuid to "custom-command-toggle2@storageb.github.com"
-       change the name to "Custom Command Toggle 2"
-  In the schemas folder:
-       rename the xml file to org.gnome.shell.extensions.custom-command-toggle2.gschema.xml
-       in that file, change the id and path:
-       <schema id="org.gnome.shell.extensions.custom-command-toggle2" 
-       path="/org/gnome/shell/extensions/custom-command-toggle2/">
-       delete the "gschemas.compiled" file.
-  Run these commands from the terminal to create a new gschemas.compiled file:
-       cd ~/.local/share/gnome-shell/extensions/custom-command-toggle2@storageb.github.com/
-       glib-compile-schemas schemas
-  Log out and log back in (or restart)
-    
-  ```
+* o - Créer le `Mode Tablette` (à compléter avec les logiciels Wike, Librum, et un raccourci Google Play Livres) : créer un toggle Gnome-shell qui lance le script 
+      `.tablette.sh` qui va activer l'extension  Screen-rotate (qu'il faut régler en rajoutant l'option Manual) et le clavier virtuel, ou les désactiver s'ils 
+      sont en fonction, et lui attribuer le raccourci `pda-symbolic`.
      
     
-* p - Créer un toggle `Powertop` qui va lancer powertop en `auto-tune` pour économiser encore 
-      plus de batterie, et baisser la luminosité sur 5% : dupliquer une troisième fois l'extension `custom-command-toggle`, rentrer cette commande pour le toggle activé :
+* p - Créer un toggle `Powertop` qui va lancer powertop en `auto-tune` pour économiser encore plus de batterie, et baisser la luminosité sur 5% : rentrer cette 
+      commande pour le toggle activé :
   
   ```
   pkexec powertop --auto-tune && gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path /org/gnome/SettingsDaemon/Power --method org.freedesktop.DBus.Properties.Set org.gnome.SettingsDaemon.Power.Screen Brightness " <int32 5>"()
@@ -474,8 +450,7 @@ gsettings set org.gnome.SessionManager logout-prompt false
      Enfin rentrer le nom de l'icone : `thunderbolt-symbolic` 
 
  
-* q - Créer un toggle `luminosité` pour passer à 70 ou 20% : dupliquer l'extension `custom-command-toggle`, attribuer 
-      l'icone `view-reveal-symbolic` puis passer les arguments suivants :
+* q - Créer un toggle `luminosité` pour passer à 70 ou 20% :  attribuer l'icone `view-reveal-symbolic` puis passer les arguments suivants :
   
   ```
   gdbus call --session --dest org.gnome.SettingsDaemon.Power --object-path 
@@ -486,6 +461,15 @@ gsettings set org.gnome.SessionManager logout-prompt false
   /org/gnome/SettingsDaemon/Power --method org.freedesktop.DBus.Properties.Set 
   org.gnome.SettingsDaemon.Power.Screen Brightness "<int32 20>"()
   ```
+
+  * l - Créer un toggle "No Touchscreen" :
+    
+    ```
+    echo 'i2c-ELAN9008:00' | pkexec tee /sys/bus/i2c/drivers/i2c_hid_acpi/unbind > /dev/null
+    ```
+    ```
+    echo 'i2c-ELAN9008:00' | pkexec tee /sys/bus/i2c/drivers/i2c_hid_acpi/bind > /dev/null                         
+    ```
 
 
 ## **6 - Allégement du système**
