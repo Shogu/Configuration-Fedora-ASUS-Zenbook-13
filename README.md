@@ -62,7 +62,11 @@ Sommaire :
   sudo dnf install gnome-tweaks
   ```
 
-* c - Régler Nautilus & créer un marque-page pour `Dropbox` & pour l'accès f`tp` au disque SSD sur la TV Android
+* c - Régler Nautilus & créer un marque-page pour `Dropbox` & pour l'accès `ftp` au disque SSD sur la TV Android :
+  
+  ```
+  192.168.31.68:2121
+  ```
 
 * d - Supprimer le mot de passe au démarrage avec le logiciel puis penser à reconnecter le compte Google dans Gnome :
 
