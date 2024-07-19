@@ -21,7 +21,7 @@ Sommaire :
 
 7. [Optimisation du système](https://github.com/Shogu/Fedora_config_ASUS_Zenbook/blob/main/README.md#7---optimisation-du-système)
 
-8. [Maintenance de la distribution](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13/blob/main/README.md#7---optimisation-du-système)
+8. [Maintenance de la distribution](https://github.com/Shogu/Configuration-Fedora-ASUS-Zenbook-13?tab=readme-ov-file#7---optimisation-du-système)
 
    
    
