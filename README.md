@@ -56,7 +56,7 @@ Sommaire :
   flatpak install flathub com.github.fabiocolacio.marker
   ```
 
-* b - Régler le système avec Paramètres puis Ajustements :
+* b - Régler le système avec Paramètres (penser à désactiver les animations dans Accessibilité) puis Ajustements :
   
   ```
   sudo dnf install gnome-tweaks
