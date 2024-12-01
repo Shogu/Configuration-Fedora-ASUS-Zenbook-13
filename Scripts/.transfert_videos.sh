@@ -1,4 +1,5 @@
 #!/bin/bash
+source ~/.bashrc
 
 # Dossiers de source et de destination
 SOURCE_DIR=~/Téléchargements
