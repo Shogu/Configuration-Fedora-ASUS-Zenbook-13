@@ -49,14 +49,9 @@ done
 
 echo "Traitement terminé."
 
-
-
-
-
-# Fermer automatiquement le terminal
-if [ "$TERM_PROGRAM" == "kgx" ]; then
-    kgx -- bash -c "exit"
-else
-    echo "Impossible de déterminer le type de terminal ou de le fermer automatiquement."
+# Fermer automatiquement la fenêtre du terminal (solution portable)
+if [[ $SHLVL -eq 1 ]]; then
+    exit
 fi
+
 
